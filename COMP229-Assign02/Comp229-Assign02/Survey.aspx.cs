@@ -31,14 +31,6 @@ namespace Comp229_Assign02
             this.Context.Items["often"] = often.SelectedValue;
             this.Context.Items["payment"] = payment.SelectedValue;
             Server.Transfer("ThankYou.aspx", true);
-            //Response.Redirect("ThankYou.aspx");
-            //feedbackLabel.Text = "Your name is: " + nameTextBox.Text + "<br/>";
-            //feedbackLabel.Text += "Your age is: " + age.Text + "<br/>";
-            //feedbackLabel.Text += "Your gender: " + genderList.SelectedValue + "<br/>";
-            //feedbackLabel.Text += "Type of product you purchase: " + productTextBox.Text + "<br/>";
-            //feedbackLabel.Text += "You buy online at: " + onlineWeb.SelectedValue + "<br/>";
-            //feedbackLabel.Text += "You do shopping online: " + often.SelectedValue + "<br/>";
-            //feedbackLabel.Text += "You pay by: " + payment.SelectedValue + "<br/>";
 
         }
 
